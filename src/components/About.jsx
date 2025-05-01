@@ -48,24 +48,10 @@ export default function AboutSection() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              MEMEGANG IS{' '}
+              MEMEGANG is Wall Street taken over by memes — buy{' '}
             </motion.span>
             <motion.span 
-              className=" px-2 inline-block"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
-            >
-              WALL STREET
-            </motion.span>
-            <motion.span 
-              className="text-white"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
-            >
-              {' '}HIJACKED BY MEMES — BUY{' '}
-            </motion.span>
-            <motion.span 
-              className=" text-green-400 px-2 inline-block"
+              className="text-green-400 px-2 inline-block"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
@@ -76,24 +62,38 @@ export default function AboutSection() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              , GET REWARDED IN{' '}
+              {' '}and earn rewards in top meme coins like{' '}
             </motion.span>
             <motion.span 
-              className="  px-2 inline-block"
+              className="text-green-400 px-2 inline-block"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              TOP MEMECOINS
+              $POPCAᵀ
             </motion.span>
             <motion.span 
               className="text-white"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              {' '}LIKE $POPCAᵀ AND $WIF. IT'S DEGEN INDEXING MEETS CARTOON CHAOS.
+              {' '}and{' '}
+            </motion.span>
+            <motion.span 
+              className="text-green-400 px-2 inline-block"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
+            >
+              $WIF
+            </motion.span>
+            <motion.span 
+              className="text-white"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
+            >
+              . It's degen indexing meets animated anarchy.
             </motion.span>
           </motion.p>
-
+          
           {/* Floating Meme Tokens */}
           <motion.div 
             className="absolute bottom-10 left-1/4 text-green-400 font-bold text-xl rotate-12"

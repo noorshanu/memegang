@@ -40,16 +40,7 @@ export default function HeroSection() {
       <div className="relative z-20 flex flex-col items-center justify-center h-full px-6 text-center">
         {/* Title */}
         <motion.h1
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ 
-            scale: 1, 
-            opacity: 1,
-            textShadow: [
-              "0 0 0px rgba(255,255,255,0.2)",
-              "0 0 20px rgba(255,255,255,0.8)",
-              "0 0 0px rgba(255,255,255,0.2)"
-            ]
-          }}
+
           transition={{ 
             duration: 0.8,
             textShadow: {
@@ -61,9 +52,7 @@ export default function HeroSection() {
           className="text-6xl md:text-8xl font-extrabold text-white drop-shadow-lg"
         >
           <motion.span
-            animate={{ 
-              color: ["#ffffff", "#4ade80", "#ffffff"]
-            }}
+          
             transition={{
               duration: 2,
               repeat: Infinity,
@@ -74,9 +63,7 @@ export default function HeroSection() {
           </motion.span>
           <motion.span 
             className="text-gray-300"
-            animate={{ 
-              color: ["#9ca3af", "#4ade80", "#9ca3af"]
-            }}
+          
             transition={{
               duration: 2,
               repeat: Infinity,
@@ -146,7 +133,7 @@ export default function HeroSection() {
         </motion.div>
 
         {/* Rewards Box */}
-        <motion.div
+        {/* <motion.div
           drag
           dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
           dragElastic={0.1}
@@ -190,7 +177,7 @@ export default function HeroSection() {
           <div className="text-green-400 text-4xl font-bold">
             5% <span className="text-white text-lg">REWARDS IN TOP MEMECOINS</span>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Floating Characters (Dummy placeholders) */}
