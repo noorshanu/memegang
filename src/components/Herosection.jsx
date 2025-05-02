@@ -181,10 +181,11 @@ export default function HeroSection() {
       </div>
 
       {/* Floating Characters (Dummy placeholders) */}
-      <img src="/images/doge.png" className="absolute left-0 top-0 w-36 md:w-48" alt="doge" />
+      {/* <img src="/images/doge.png" className="absolute left-0 top-0 w-36 md:w-48" alt="doge" />
       <img src="/images/pepe-center.png" className="absolute bottom-0 left-1/3 w-48 md:w-72" alt="pepe" />
       <img src="/images/blue-pepe.png" className="absolute top-0 right-32 w-36 md:w-48" alt="blue-pepe" />
       <img src="/images/popcat.png" className="absolute right-10 bottom-20 w-32 md:w-44" alt="popcat" />
+   */}
     </section>
   );
 }
